@@ -1,0 +1,25 @@
+/* pages/history/index.wxss */
+page {
+  background: #f1f1f1;
+}
+
+.history_item {
+  width: 690rpx;
+  margin: 20rpx auto;
+  border-radius: 10rpx;
+  background: white;
+}
+
+.history_item  image {
+  width: 100%;
+  border-radius: 10rpx 10rpx 0 0;
+}
+
+.history_item_text {
+  padding: 20rpx;
+  color: #454545;
+}
+
+.history_item_name {
+  margin-bottom: 25rpx;
+}

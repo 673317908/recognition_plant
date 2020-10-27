@@ -1,0 +1,19 @@
+<!--pages/imgResult/index.wxml-->
+<view class="check_img">
+  <image src="{{options.uploadUrl}}"></image>
+</view>
+
+<view class="check_result">
+  <view class="check_result_title"><text>{{resultTitle}}</text></view>
+  <view class="check_result_content" wx:for="{{resultData}}" wx:key="index">
+    <view class="number">{{index+1}}</view>
+    <view class="name">{{item.name}}</view>
+    <view class="grade">{{item.score}}%</view>
+  </view>
+</view>
+
+<view class="save">
+  <view class="save_btn" bindtap="save">
+    <text>保存结果</text>
+  </view>
+</view>

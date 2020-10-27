@@ -1,0 +1,14 @@
+<!--pages/history/index.wxml-->
+<view class="history_list">
+  <view class="history_item" wx:for="{{historyData}}" wx:key="index">
+    <image src="{{item.image}}" mode="widthFix"></image>
+    <view class="history_item_text">
+      <view class="history_item_name">
+        <text>{{item.resultData[0].name}}</text>
+      </view>
+      <view class="history_item_time">
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,86 @@
+/* pages/user/index.wxss */
+@import "../../styles/icon.wxss";
+
+page {
+  background-color: #f1f1f1;
+}
+
+.user_head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 480rpx;
+  background: linear-gradient(#6eb857, #80bd55, #87bd56, #8ebf56);
+}
+
+open-data[type="userAvatarUrl"] {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user_head_nickName {
+  color: white;
+  margin-top: 40rpx;
+}
+
+.page_nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.page_nav_item {
+  padding: 40rpx;
+  text-align: center;
+}
+
+.page_nav_item view:nth-child(1) {
+  font-size: 50rpx;
+  margin-bottom: 20rpx;
+}
+
+.page_nav_item view:nth-child(2) {
+  font-size: 26rpx;
+  margin-bottom: 20rpx;
+  color: #b1b1b1;
+}
+
+.list_nav {
+  background-color: white;
+  margin-top: 30rpx;
+}
+
+.list_nav_item {
+  clear: both;
+  padding: 25rpx;
+  border-bottom: 1rpx solid #f3f3f3;
+  line-height: 42rpx;
+  vertical-align: middle;
+}
+
+.list_nav_item text:nth-child(2){
+  margin-left: 15rpx;
+  color: #7e8991;
+  font-size: 34rpx;
+}
+
+.next {
+  height: 20rpx;
+  width: 20rpx;
+  border-top: 2rpx solid #858c93;
+  border-right: 2rpx solid #858c93;
+  display: block;
+  transform: rotate(45deg);
+  float: right;
+  margin-top: 10rpx;
+}
+
+.copy {
+  color: #aeaeae;
+  font-size: 24rpx;
+  text-align: center;
+  padding: 20rpx;
+}

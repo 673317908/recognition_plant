@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/imgResult/index",
+    "pages/history/index",
+    "pages/showImg/index"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "iconPath": "./images/camera.png",
+        "selectedIconPath": "./images/camera-active.png",
+        "pagePath": "pages/index/index",
+        "text": "识害",
+        "color":"#afafaf"
+      },
+      {
+        "iconPath": "./images/user.png",
+        "selectedIconPath": "./images/user-acive.png",
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "color":"#afafaf"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

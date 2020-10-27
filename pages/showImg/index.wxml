@@ -1,0 +1,35 @@
+<!--pages/showImg/index.wxml-->
+<view class="history_list">
+	<view class="history_item">
+		<image src="../../images/0a3e7f43fefa6b5c2ba9eb4f7a9ebbff.jpg" mode="widthFix"></image>
+		<view class="history_item_text">
+			<view class="history_item_name">
+				<text>葡萄</text>
+			</view>
+		</view>
+	</view>
+  <view class="history_item">
+		<image src="../../images/0a3e7f43fefa6b5c2ba9eb4f7a9ebbff.jpg" mode="widthFix"></image>
+		<view class="history_item_text">
+			<view class="history_item_name">
+				<text>葡萄</text>
+			</view>
+		</view>
+	</view>
+  <view class="history_item">
+		<image src="../../images/0a3e7f43fefa6b5c2ba9eb4f7a9ebbff.jpg" mode="widthFix"></image>
+		<view class="history_item_text">
+			<view class="history_item_name">
+				<text>葡萄</text>
+			</view>
+		</view>
+	</view>
+    <view class="history_item">
+		<image src="../../images/0a3e7f43fefa6b5c2ba9eb4f7a9ebbff.jpg" mode="widthFix"></image>
+		<view class="history_item_text">
+			<view class="history_item_name">
+				<text>葡萄</text>
+			</view>
+		</view>
+	</view>
+</view>

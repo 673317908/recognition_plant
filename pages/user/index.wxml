@@ -1,0 +1,21 @@
+<!--pages/user/index.wxml-->
+<view class="user_head">
+  <open-data class="user_head_img" type="userAvatarUrl"></open-data>
+  <open-data class="user_head_nickName" type="userNickName"></open-data>
+</view>
+<view class="page_nav">
+  <view class="page_nav_item" wx:for="{{tabNav}}" wx:key="index" bindtap="jump" data-index="{{index}}">
+    <view class="{{'cuIcon-'+item.icon}}" style="{{'color:'+item.color}}"></view>
+    <view>{{item.title}}</view>
+  </view>
+</view>
+<view class="list_nav">
+  <view class="list_nav_item" wx:for="{{listNav}}" wx:key="index" bindtap="jumpList" data-index="{{index}}" data-icon="{{item.cuIcon}}">
+    <text class="{{'cuIcon-'+item.cuIcon}}" style="{{'color:'+item.color}}"></text>
+    <text>{{item.name}}</text>
+    <view class="next"></view>
+  </view>
+</view>
+<view class="copy">
+  &copy; 智能识农害
+</view>

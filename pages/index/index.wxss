@@ -1,0 +1,35 @@
+/**index.wxss**/
+.create_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(141, 198, 63, .2);
+  width: 150rpx;
+  height: 150rpx;
+  margin: 40rpx auto;
+}
+
+.create_img_btn {
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  background: rgb(57, 181, 74);
+}
+
+.upload_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40rpx;
+  width: 100%;
+  text-align: center;
+}
+
+.cancel_btn {
+  flex: 1;
+}
+
+.ok_btn {
+  flex: 1;
+}

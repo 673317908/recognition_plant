@@ -1,0 +1,62 @@
+/* pages/imgResult/index.wxss */
+page {
+  background-color: #f1f1f1;
+}
+
+.check_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40rpx 0;
+}
+
+.check_img image{
+  width: 400rpx;
+  height: 400rpx;
+  border-radius: 10rpx;
+}
+
+.check_result {
+  background-color: white;
+  padding: 30rpx;
+}
+
+.check_result_title {
+  display: flex;
+  align-items: center;
+}
+
+.check_result_title::before{
+  content: "";
+  display: block;
+  width: 12rpx;
+  height: 40rpx;
+  border-radius: 10rpx;
+  background-color: #5ab650;
+  margin-right: 20rpx;
+}
+
+.check_result_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.check_result_content view {
+  padding: 20rpx;
+}
+
+.save {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.save_btn {
+  padding:30rpx;
+  border-radius: 80rpx;
+  background: linear-gradient(to right,#6ab557,#81bd55,#90c156);
+  color: white;
+  font-size: 40rpx;
+}

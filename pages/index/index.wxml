@@ -1,0 +1,18 @@
+<view wx:if="{{!src}}">
+  <camera style="width: 100%; height: 1000rpx;" flash="auto"></camera>
+  <view class="create_img" bindtap="takePhoto">
+    <view class="create_img_btn">
+    </view>
+  </view>
+</view>
+<view wx:if="{{src}}">
+  <image style="width: 100%; height: 1000rpx;" src="{{src}}"></image>
+  <view class="upload_img">
+    <view class="cancel_btn" bindtap="cancelUpload">
+      <icon class="icon-small" type="cancel" size="60"></icon>
+    </view>
+    <view class="ok_btn" bindtap="checkImg">
+      <icon class="icon-small" type="success" size="60"></icon>
+    </view>
+  </view>
+</view>
